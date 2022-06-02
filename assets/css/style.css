@@ -1384,3 +1384,33 @@ dl[class=row] dt {
 
 
 /* FORM ADD ARTICLE STYLING END  */
+
+
+/* FORUM STYLING START */
+
+.second .forum-post {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.second .forum-post a {
+    text-decoration: none;
+    color: #000;
+}
+
+.second .forum-post h3 {
+    font-family: 'Merriweather', serif;
+}
+
+.second .forum-post .forums-post-infos .badge {
+    background-color: #51585e;
+}
+
+.second .forum-post .forums-post-infos .right .name {
+    font-weight: 500;
+    font-family: 'Merriweather', serif;
+}
+
+
+/* FORUM STYLING END */
