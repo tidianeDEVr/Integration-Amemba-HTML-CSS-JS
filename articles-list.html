@@ -11,7 +11,7 @@
     <title>Amicale des Anciennes Eleves de Mariama Ba</title>
     <link href="assets/images/identity/logo_draw.ico" rel="shortcut icon" type="image/x-icon">
     <!-- Slick Carousel  -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
     <!-- Bootstrap CSS -->
@@ -20,7 +20,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/responsive.css" crossorigin="anonymous">
 </head>
 
 <body>
@@ -253,42 +254,44 @@
 
     <!-- FOOTER START -->
     <footer>
-        <div class="container h-100 d-flex">
-            <div class="card-footer">
-                <div class="logos my-5">
-                    <img src="assets/images/identity/logo_txt/white.png" alt="">
-                    <img src="assets/images/identity/logo_txt/txt_white.png" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="card-footer col-sm">
+                    <div class="logos my-5">
+                        <img src="assets/images/identity/logo_txt/white.png" alt="">
+                        <img src="assets/images/identity/logo_txt/txt_white.png" alt="">
+                    </div>
+                    <ul class="coordonnees list-group">
+                        <li><i class="fa-solid fa-location-dot"></i> Adresse</li>
+                        <li><i class="fa-solid fa-phone"></i> Numéro de téléphone </li>
+                        <li><i class="fa-solid fa-at"></i> Adresse email</li>
+                    </ul>
                 </div>
-                <ul class="coordonnees list-group">
-                    <li><i class="fa-solid fa-location-dot"></i> Adresse</li>
-                    <li><i class="fa-solid fa-phone"></i> Numéro de téléphone </li>
-                    <li><i class="fa-solid fa-at"></i> Adresse email</li>
-                </ul>
-            </div>
-            <div class="card-footer">
-                <h4 class="my-5">MEMBA LIFE</h4>
-                <ul class="memba-life list-group">
-                    <li><a href="#">Activités</a></li>
-                    <li><a href="#">Calendrier</a> </li>
-                    <li><a href="#">Programme WEN</a></li>
-                    <li><a href="#">Partenariats</a></li>
-                </ul>
-            </div>
-            <div class="card-footer">
-                <h4 class="my-5"> Mentions légales</h4>
-                <ul class="mentions-legales list-group">
-                    <li><a href="#">Politique de confidentialité</a></li>
-                    <li><a href="#">Termes et Conditions</a></li>
-                </ul>
-            </div>
-            <div class="card-footer">
-                <h4 class="my-5"> Nos réseaux sociaux</h4>
-                <ul class="reseaux-sociaux list-group d-flex">
-                    <li><a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-twitter fa-2x"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-youtube fa-2x"></i></a></li>
-                </ul>
+                <div class="card-footer col-sm">
+                    <h4 class="my-5">MEMBA LIFE</h4>
+                    <ul class="memba-life list-group">
+                        <li><a href="#">Activités</a></li>
+                        <li><a href="#">Calendrier</a> </li>
+                        <li><a href="#">Programme WEN</a></li>
+                        <li><a href="#">Partenariats</a></li>
+                    </ul>
+                </div>
+                <div class="card-footer col-sm">
+                    <h4 class="my-5"> Mentions légales</h4>
+                    <ul class="mentions-legales list-group">
+                        <li><a href="#">Politique de confidentialité</a></li>
+                        <li><a href="#">Termes et Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="card-footer col-sm">
+                    <h4 class="my-5"> Nos réseaux sociaux</h4>
+                    <ul class="reseaux-sociaux list-group d-flex">
+                        <li class="mx-auto"><a href="#"><i class="fa-brands fa-instagram fa-2x"></i> <span class="mx-3">Instagram</span></a></li>
+                        <li class="mx-auto"><a href="#"><i class="fa-brands fa-facebook fa-2x"></i> <span class="mx-3">Facebook</span></a></li>
+                        <li class="mx-auto"><a href="#"><i class="fa-brands fa-twitter fa-2x"></i> <span class="mx-3">Twitter</span></a></li>
+                        <li class="mx-auto"><a href="#"><i class="fa-brands fa-youtube fa-2x"></i> <span class="mx-3">Youtube</span></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>
