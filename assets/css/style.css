@@ -1405,3 +1405,27 @@ dl[class=row] dt {
 
 
 /* PROFILE STYLING END  */
+
+
+/* PHONE BOOK STYLING START  */
+
+.second .phone-book .phone-book-card-cont {
+    height: 380px;
+    border-radius: 7px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.second .phone-book .phone-book-card span {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+
+/* PHONE BOOK STYLING END */
