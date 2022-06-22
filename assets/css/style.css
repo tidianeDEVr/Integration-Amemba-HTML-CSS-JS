@@ -124,7 +124,6 @@ nav .membre img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(0, 24, 69, 0.7), rgba(0, 24, 69, 0.7)), url('../images/hero-carroussel/background.jfif');
 }
 
 .slider-section .slider .sl-content .sl-content-content {
@@ -375,7 +374,6 @@ nav .membre img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(0, 24, 69, 0.7), rgba(0, 24, 69, 0.7)), url('../images/interview/interview_1.png');
 }
 
 .wen .wen-cards .card3 {
@@ -558,7 +556,6 @@ nav .membre img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(0, 24, 69, 0.7), rgba(0, 24, 69, 0.7)), url('../images/hero-carroussel/background.jfif');
 }
 
 .old .container {
