@@ -722,6 +722,10 @@ nav .membre img {
     height: 50px;
 }
 
+.login-register .login-right form #phone {
+    width: 119%;
+}
+
 .login-register .login-right form .logo-enterprise {
     height: 38px;
 }

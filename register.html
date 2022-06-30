@@ -19,6 +19,8 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
+    <!-- IntelTel Input CSS--->
+    <link rel="stylesheet" href="assets/css/intlTelInput.css" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/responsive.css" crossorigin="anonymous">
@@ -96,12 +98,16 @@
                             <input class="form-control" placeholder="Adresse email" type="text" required>
                         </div>
                         <div class="mb-3">
+                            <label class="form-label col-12">Téléphone</label>
+                            <input class="form-control" id='phone' type="tel" required>
+                        </div>
+                        <!-- <div class="mb-3">
                             <label class="form-label">Téléphone</label>
                             <div class="row gx-2">
                                 <div class="col-4"> <input class="form-control" value="+221" type="text" required> </div>
                                 <div class="col-8"> <input class="form-control" placeholder="771234567" type="text" required> </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="mb-3">
                             <label class="form-label">Mot de passe</label>
                             <input class="form-control" placeholder="Au moins 6 caractères." type="password" required>
@@ -179,6 +185,35 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- IntelTel Input -->
+    <script type="text/javascript" src="assets/js/intlTelInput.js"></script>
+    <script>
+        var input = document.querySelector("#phone");
+        window.intlTelInput(input, {
+            // allowDropdown: false,
+            // autoHideDialCode: false,
+            // autoPlaceholder: "off",
+            // dropdownContainer: document.body,
+            // excludeCountries: ["us"],
+            // formatOnDisplay: false,
+            // geoIpLookup: function(callback) {
+            //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+            //     var countryCode = (resp && resp.country) ? resp.country : "";
+            //     callback(countryCode);
+            //   });
+            // },
+            // hiddenInput: "full_number",
+            // initialCountry: "auto",
+            // localizedCountries: { 'de': 'Deutschland' },
+            // nationalMode: false,
+            // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+            placeholderNumberType: "MOBILE",
+            preferredCountries: ['sn'],
+            separateDialCode: true,
+            utilsScript: "assets/js/utils.js",
+        });
+    </script>
 
     <!-- JavaScript Bootstrap with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
