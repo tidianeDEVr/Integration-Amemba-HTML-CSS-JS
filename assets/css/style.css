@@ -624,7 +624,6 @@ nav .membre img {
 
 .testimony-section {
     background-color: var(--secondary-blue);
-    height: 550px;
 }
 
 .testimony-section * {
@@ -646,11 +645,13 @@ nav .membre img {
 }
 
 .testimony-section .testimony-container {
-    height: 60%;
+    /* height: 60%; */
+    width: 100%;
+    margin: 0 auto;
 }
 
 .testimony-section .testimony-card {
-    width: 45%;
+    min-height: 300px;
 }
 
 .testimony-section .testimony-left {
