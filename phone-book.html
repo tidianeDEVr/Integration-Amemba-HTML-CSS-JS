@@ -72,7 +72,7 @@
     <!-- FIRST SECTION START -->
     <section class="first d-flex justify-content-center align-items-center">
         <div class="container">
-            <h2 class="first-title text-center mb-4">ANNUAIRE DES<br>ANCIENNES</h2>
+            <h2 class="first-title text-center my-4">ANNUAIRE DES<br>ANCIENNES</h2>
             <p class="text-center">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna donec nulla eu purus sed pharetra. Enim vel sed posuere ut massa ut. Non sit imperdiet enim at diam orci augue sit ultrices. Rhoncus et ipsum, quis egestas scelerisque viverra id sit
             </p>
@@ -83,25 +83,29 @@
     <!-- SECOND SECTION START -->
     <section class="second py-5">
         <div class="container">
-            <form class="search-box row mb-5">
-                <div class="input col-8">
-                    <input type="text" name="search" placeholder="Rechercher des mots cles..." class="form-control">
+            <form class="search-box row row-cols-1 row-cols-md-2 mb-5">
+                <div class="col mt-2">
+                    <div class="input">
+                        <input type="text" name="search" placeholder="Rechercher des mots cles..." class="form-control">
+                    </div>
                 </div>
-                <div class="search-btn col-2">
-                    <a type='submit' href="" class="btn btn-primary w-100">
+                <div class="col row mt-2">
+                    <div class="search-btn col-6">
+                        <a type='submit' href="" class="btn btn-primary w-100">
                         Rechercher <i class="fas fa-search"></i>
                     </a>
-                </div>
-                <div class="search-select col-2">
-                    <select class="form-select" aria-label="Default select example">
+                    </div>
+                    <div class="search-select col-6">
+                        <select class="form-select" aria-label="Default select example">
                         <option selected>Promotion</option>
                         <option value="1">One</option>
                         <option value="2">Two</option>
                         <option value="3">Three</option>
                     </select>
+                    </div>
                 </div>
             </form>
-            <div class="phone-book row row-cols-2 row-cols-md-4 gy-3">
+            <div class="phone-book row row-cols-lg-4 row-cols-md-4 row-cols-1 gy-3">
                 <div class="phone-book-card">
                     <div class="phone-book-card-cont" style="background-image: url('assets/images/avatars/exemple.jpg');">
                         <span>Prénom nom</span>

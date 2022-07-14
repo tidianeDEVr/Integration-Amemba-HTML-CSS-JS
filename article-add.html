@@ -72,7 +72,7 @@
     <!-- FIRST SECTION START -->
     <section class="first d-flex justify-content-center align-items-center">
         <div class="container">
-            <h2 class="first-title text-center mb-4">Ajout d'un article</h2>
+            <h2 class="first-title text-center my-4">Ajout d'un article</h2>
             <p class="text-center">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna donec nulla eu purus sed pharetra. Enim vel sed posuere ut massa ut. Non sit imperdiet enim at diam orci augue sit ultrices. Rhoncus et ipsum, quis egestas scelerisque viverra id sit
             </p>
@@ -84,33 +84,35 @@
     <section class="second">
         <div class="container py-5">
             <form method="POST" enctype="multipart/form-data">
-                <div class="form-top d-flex">
-                    <div class="form-top-left form-top-side">
-                        <div class="form-group" class="py-2">
-                            <div class="text-center">
-                                <label for="exampleFormControlFile1">Ajouter une image a l'article (facultatif)</label>
-                            </div>
-                            <div class="d-flex justify-content-center">
-                                <img src="assets/images/nopreview.jpeg" alt="article illustration" id="addArticleImg" width="500px">
+                <div class="form-top">
+                    <div class="row row-cols-1 row-cols-md-2">
+                        <div class="form-top-left form-top-side">
+                            <div class="form-group" class="py-2">
+                                <div class="text-center">
+                                    <label for="exampleFormControlFile1">Ajouter une image a l'article (facultatif)</label>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <img src="assets/images/nopreview.jpeg" alt="article illustration" id="addArticleImg" width="500px">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="form-top-right form-top-side">
-                        <div class="form-group">
-                            <label for="title">Titre <span class="require">*</span> <small>(Ce champ est utilisé dans le chemin de l'url.)</small></label>
-                            <input type="text" class="form-control mb-3" name="title" />
-                        </div>
-                        <div class="form-group form-row">
-                            <label for="title">Categorie <span class="require">*</span></label>
-                            <select name="category" id="" class="form-control mb-3">
+                        <div class="form-top-right form-top-side">
+                            <div class="form-group">
+                                <label for="title">Titre <span class="require">*</span> <small>(Ce champ est utilisé dans le chemin de l'url.)</small></label>
+                                <input type="text" class="form-control mb-3" name="title" />
+                            </div>
+                            <div class="form-group form-row">
+                                <label for="title">Categorie <span class="require">*</span></label>
+                                <select name="category" id="" class="form-control mb-3">
                                 <option value="">Categorie 1</option>
                                 <option value="">Categorie 2</option>
                                 <option value="">Categorie 3</option>
                             </select>
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleFormControlFile1">Ajouter une image a l'article (facultatif)</label>
-                            <input class="form-control mb-4" type="file" id="formFileImage" accept="image/png, image/jpeg">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlFile1">Ajouter une image a l'article (facultatif)</label>
+                                <input class="form-control mb-4" type="file" id="formFileImage" accept="image/png, image/jpeg">
+                            </div>
                         </div>
                     </div>
                 </div>

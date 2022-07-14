@@ -504,7 +504,7 @@ nav .membre img {
 /* SECTION SINGLE EVENT STYLING START  */
 
 .second .single-event {
-    height: 500px;
+    min-height: 500px;
 }
 
 .second .single-event .single-event-side {
@@ -666,14 +666,6 @@ nav .membre img {
 
 /* SECTION BUREAU START */
 
-.bureau-grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
-}
-
 
 /* SECTION BUREAU END */
 
@@ -724,7 +716,7 @@ nav .membre img {
 }
 
 .login-register .login-right form #phone {
-    width: 119%;
+    width: 100%;
 }
 
 .login-register .login-right form .logo-enterprise {
@@ -1359,11 +1351,6 @@ dl[class=row] dt {
 
 /* FORM ADD ARTICLE STYLING START  */
 
-.form-top-side {
-    width: 50%;
-    /* padding: 0 20px; */
-}
-
 
 /* FORM ADD ARTICLE STYLING END  */
 
@@ -1387,6 +1374,8 @@ dl[class=row] dt {
 
 .second .forum-post .forums-post-infos .badge {
     background-color: #51585e;
+    height: 20px;
+    width: 100px;
 }
 
 .second .forum-post .forums-post-infos .right .name {

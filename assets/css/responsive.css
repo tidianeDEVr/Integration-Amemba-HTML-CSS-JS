@@ -108,7 +108,8 @@
         .wen .wen-cards .wen-card {
             padding: 20px;
         }
-        .wen .wen-cards .wen-card p {
+        .wen .wen-cards .wen-card p,
+        .testimony-section .testimony-right p {
             font-size: 24px;
             line-height: 36px;
         }
@@ -120,6 +121,21 @@
         }
         .partners .d-flex img {
             max-width: 100px;
+        }
+        .second .single-event {
+            flex-direction: column;
+        }
+        .second .single-event .single-event-side {
+            width: 100%;
+        }
+        .img-article {
+            height: 300px;
+        }
+        .command-card * {
+            text-align: center;
+        }
+        .login-register .login-card {
+            padding: 20px;
         }
     }
     
